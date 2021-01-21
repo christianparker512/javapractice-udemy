@@ -13,5 +13,8 @@ public class Main {
         }
         System.out.println(myIntArray[5]);
         System.out.println(myIntArray[0]);
+        for(int i =0; i<10; i++){
+            System.out.println("Element " + i + ", value is " + myIntArray[i]);
+        }
     }
 }
