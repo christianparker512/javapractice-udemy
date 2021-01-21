@@ -16,5 +16,11 @@ public class Main {
         for(int i =0; i<10; i++){
             System.out.println("Element " + i + ", value is " + myIntArray[i]);
         }
+        printArray(myIntArray);
+    }
+    public static void printArray(int[] array){
+        for (int i=0; i<array.length; i++){
+            System.out.println("Elements " + i + ", value is " + array[i]);
+        }
     }
 }
