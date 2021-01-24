@@ -1,2 +1,5 @@
-package Employee;public class MorningDuty {
+package Employee;
+
+public interface MorningDuty {
+    String sayGoodMorning();
 }
