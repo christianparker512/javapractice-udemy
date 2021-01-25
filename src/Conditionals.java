@@ -5,5 +5,10 @@ public class Conditionals {
             System.out.println("i is " + i);
             i ++;
         }
+        int counter = 0;
+        do{
+            System.out.println(counter);
+            counter+=2;
+        } while (counter<=100);
     }
 }
