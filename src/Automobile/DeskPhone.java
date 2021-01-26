@@ -11,7 +11,7 @@ public class DeskPhone implements ITelephone{
 
     @Override
     public void dial(int phoneNumber) {
-
+        System.out.println("Now ringing " + phoneNumber + " on the desk phone");
     }
 
     @Override
@@ -21,6 +21,7 @@ public class DeskPhone implements ITelephone{
 
     @Override
     public boolean callPhone(int phoneNumber) {
+
         return false;
     }
 
