@@ -54,8 +54,10 @@ public class Teacher implements MorningDuty{
         int [] arr1 = {1,2,3,4,5};
         Teacher me = new Teacher ("chris", "parker");
         Teacher Schultse = new Teacher("matt", "schultse");
+        Teacher Gabe = new Teacher("Gabe", "Gonzales");
         System.out.println(me.sayGoodMorning());
         System.out.println(Schultse.sayGoodMorning());
+        System.out.println(Gabe.sayGoodMorning());
         Specials.add(new ArtTeacher("Christian", "Parker", true));
         Specials.add(new ArtTeacher("Ralf", "Petiton", true));
         Specials.add(new ArtTeacher("Matt", "Schultse", true));
