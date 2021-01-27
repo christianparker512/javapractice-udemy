@@ -22,7 +22,7 @@ package PolymorphismExample;
 //        Employee one = new Employee();
 //        Employee two = new Manager();
 //
-//        doWork(one); // "Filling out TPS reports"
+//        doWork(one); // "Fill-ing out TPS reports"
 //        doWork(two); // "Managing employees"
 //    }
 //
