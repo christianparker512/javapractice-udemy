@@ -27,8 +27,9 @@ public class Educator implements TeacherResponsibilities {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
     @Override
     public String takeAttendance(){
-        return String.format("Mr.Mrs %s class has 100% attendance", lastName);
+        return String.format("Mr. %s class has 100% attendance", lastName);
     }
 }

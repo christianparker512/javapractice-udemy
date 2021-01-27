@@ -7,4 +7,12 @@ public class Teacher extends Educator{
         super(firstName, lastName);
         this.admin = admin;
     }
+
+//    public boolean isAdmin() {
+//        return admin;
+//    }
+//
+//    public void setAdmin(boolean admin) {
+//        this.admin = admin;
+//    }
 }
