@@ -28,8 +28,8 @@ public class Assessment {
     public static ArrayList<Teacher> capitalizeTeacherNames(ArrayList<Teacher>teachers){
 //        ArrayList<Teacher> capitalizedTeacherNames = new ArrayList<>();
         for (Teacher teacher: teachers){
-            teacher.setFirstName(String.format("%s%s", teacher.getFirstName().substring(0,1).toUpperCase(), teacher.getFirstName().substring(1)));
-            teacher.setLastName(String.format("%s%s", teacher.getLastName().substring(0,1).toUpperCase(), teacher.getLastName().substring(1)));
+            teacher.setFirstName(String.format("%s%s", teacher.getFirstName().substring(0,1).toUpperCase(), teacher.getFirstName().substring(1).toLowerCase()));
+            teacher.setLastName(String.format("%s%s", teacher.getLastName().substring(0,1).toUpperCase(), teacher.getLastName().substring(1).toLowerCase()));
 //            teacher.setFirstName(teacher.getFirstName().substring(0,1).toUpperCase() + teacher.getFirstName().substring(1));
 //            teacher.setLastName(teacher.getLastName().substring(0,1).toUpperCase() + teacher.getLastName().substring(1));
 //            capitalizedTeacherNames.add(teacher);
