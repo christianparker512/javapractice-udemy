@@ -46,6 +46,7 @@ public class Main {
         album.addSong("Breaking the rules", 5.32);
         album.addSong("Night of the long knives", 5.12);
         album.addSong("In the heat of the night", 5.12);
+        album.addSong("We Salute you", 2.42);
         albums.add(album);
 
         List<Song> playList = new Vector<Song>();
