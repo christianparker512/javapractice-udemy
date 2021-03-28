@@ -25,6 +25,7 @@ public class Main {
 
         Album album = new Album("Stormbringer", "Deep Purple");
         album.addSong("Stormbringer", 4.6);
+        album.addSong("Mr Brightside", 4.6);
         album.addSong("Love don't mean a thing", 4.22);
         album.addSong("Holy man", 4.3);
         album.addSong("Hold on", 5.6);
@@ -53,6 +54,7 @@ public class Main {
         List<Song> playList = new Vector<Song>();
         albums.get(0).addToPlayList("You can't do it right", playList);
         albums.get(0).addToPlayList("Holy man", playList);
+
         albums.get(0).addToPlayList("Speed king", playList);  // Does not exist
         albums.get(0).addToPlayList(9, playList);
         albums.get(1).addToPlayList(8, playList);
