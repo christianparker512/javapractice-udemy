@@ -26,6 +26,7 @@ public class Main {
         Album album = new Album("Stormbringer", "Deep Purple");
         album.addSong("Stormbringer", 4.6);
         album.addSong("Mr Brightside", 4.6);
+        album.addSong("Desperado", 3.5);
         album.addSong("Love don't mean a thing", 4.22);
         album.addSong("Holy man", 4.3);
         album.addSong("Hold on", 5.6);
